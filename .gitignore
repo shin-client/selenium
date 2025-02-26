@@ -1,0 +1,15 @@
+# Bảo vệ thông tin nhạy cảm
+config.js
+
+# Bỏ qua thư mục node_modules
+node_modules/
+
+# Bỏ qua file package-lock.json (tùy chọn, nếu bạn không muốn đẩy file này)
+package-lock.json
+
+# Bỏ qua log hoặc file tạm
+*.log
+*.tmp
+
+# Bỏ qua file môi trường (nếu dùng dotenv sau này)
+.env
